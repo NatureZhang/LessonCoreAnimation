@@ -7,15 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D9C7DF3F1CE308500062BF22 /* studycard_start_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9C7DF3E1CE308500062BF22 /* studycard_start_btn@2x.png */; };
+		D9EBA47A1CE45FA500881FF6 /* TransformVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA4781CE45FA500881FF6 /* TransformVC.m */; };
+		D9EBA47B1CE45FA500881FF6 /* TransformVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EBA4791CE45FA500881FF6 /* TransformVC.xib */; };
+		D9EBA47F1CE474A000881FF6 /* CubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA47D1CE474A000881FF6 /* CubeViewController.m */; };
+		D9EBA4801CE474A000881FF6 /* CubeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EBA47E1CE474A000881FF6 /* CubeViewController.xib */; };
+		D9EBA4841CE4847800881FF6 /* SubCaLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EBA4821CE4847800881FF6 /* SubCaLayerVC.m */; };
+		D9EBA4851CE4847800881FF6 /* SubCaLayerVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9EBA4831CE4847800881FF6 /* SubCaLayerVC.xib */; };
 		D9F0B5571CE04B03006A764A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B5561CE04B03006A764A /* main.m */; };
 		D9F0B55A1CE04B03006A764A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B5591CE04B03006A764A /* AppDelegate.m */; };
 		D9F0B55D1CE04B03006A764A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F0B55C1CE04B03006A764A /* ViewController.m */; };
 		D9F0B5601CE04B03006A764A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F0B55E1CE04B03006A764A /* Main.storyboard */; };
 		D9F0B5621CE04B03006A764A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9F0B5611CE04B03006A764A /* Assets.xcassets */; };
 		D9F0B5651CE04B03006A764A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9F0B5631CE04B03006A764A /* LaunchScreen.storyboard */; };
+		D9F0B56D1CE04D87006A764A /* study_testState_end@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F0B56C1CE04D87006A764A /* study_testState_end@2x.png */; };
+		D9F0B56F1CE04F5F006A764A /* studyCard_finish@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9F0B56E1CE04F5F006A764A /* studyCard_finish@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D9C7DF3E1CE308500062BF22 /* studycard_start_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "studycard_start_btn@2x.png"; sourceTree = "<group>"; };
+		D9EBA4771CE45FA500881FF6 /* TransformVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformVC.h; sourceTree = "<group>"; };
+		D9EBA4781CE45FA500881FF6 /* TransformVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformVC.m; sourceTree = "<group>"; };
+		D9EBA4791CE45FA500881FF6 /* TransformVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TransformVC.xib; sourceTree = "<group>"; };
+		D9EBA47C1CE474A000881FF6 /* CubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CubeViewController.h; sourceTree = "<group>"; };
+		D9EBA47D1CE474A000881FF6 /* CubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CubeViewController.m; sourceTree = "<group>"; };
+		D9EBA47E1CE474A000881FF6 /* CubeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CubeViewController.xib; sourceTree = "<group>"; };
+		D9EBA4811CE4847800881FF6 /* SubCaLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubCaLayerVC.h; sourceTree = "<group>"; };
+		D9EBA4821CE4847800881FF6 /* SubCaLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubCaLayerVC.m; sourceTree = "<group>"; };
+		D9EBA4831CE4847800881FF6 /* SubCaLayerVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SubCaLayerVC.xib; sourceTree = "<group>"; };
 		D9F0B5521CE04B03006A764A /* LessonCoreAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LessonCoreAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9F0B5561CE04B03006A764A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D9F0B5581CE04B03006A764A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +45,8 @@
 		D9F0B5611CE04B03006A764A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9F0B5641CE04B03006A764A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D9F0B5661CE04B03006A764A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F0B56C1CE04D87006A764A /* study_testState_end@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "study_testState_end@2x.png"; sourceTree = "<group>"; };
+		D9F0B56E1CE04F5F006A764A /* studyCard_finish@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "studyCard_finish@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,18 @@
 				D9F0B5591CE04B03006A764A /* AppDelegate.m */,
 				D9F0B55B1CE04B03006A764A /* ViewController.h */,
 				D9F0B55C1CE04B03006A764A /* ViewController.m */,
+				D9EBA4771CE45FA500881FF6 /* TransformVC.h */,
+				D9EBA4781CE45FA500881FF6 /* TransformVC.m */,
+				D9EBA4791CE45FA500881FF6 /* TransformVC.xib */,
+				D9EBA47C1CE474A000881FF6 /* CubeViewController.h */,
+				D9EBA47D1CE474A000881FF6 /* CubeViewController.m */,
+				D9EBA47E1CE474A000881FF6 /* CubeViewController.xib */,
+				D9EBA4811CE4847800881FF6 /* SubCaLayerVC.h */,
+				D9EBA4821CE4847800881FF6 /* SubCaLayerVC.m */,
+				D9EBA4831CE4847800881FF6 /* SubCaLayerVC.xib */,
+				D9C7DF3E1CE308500062BF22 /* studycard_start_btn@2x.png */,
+				D9F0B56E1CE04F5F006A764A /* studyCard_finish@2x.png */,
+				D9F0B56C1CE04D87006A764A /* study_testState_end@2x.png */,
 				D9F0B55E1CE04B03006A764A /* Main.storyboard */,
 				D9F0B5611CE04B03006A764A /* Assets.xcassets */,
 				D9F0B5631CE04B03006A764A /* LaunchScreen.storyboard */,
@@ -137,7 +170,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F0B5651CE04B03006A764A /* LaunchScreen.storyboard in Resources */,
+				D9F0B56F1CE04F5F006A764A /* studyCard_finish@2x.png in Resources */,
+				D9EBA4851CE4847800881FF6 /* SubCaLayerVC.xib in Resources */,
+				D9C7DF3F1CE308500062BF22 /* studycard_start_btn@2x.png in Resources */,
+				D9EBA47B1CE45FA500881FF6 /* TransformVC.xib in Resources */,
 				D9F0B5621CE04B03006A764A /* Assets.xcassets in Resources */,
+				D9EBA4801CE474A000881FF6 /* CubeViewController.xib in Resources */,
+				D9F0B56D1CE04D87006A764A /* study_testState_end@2x.png in Resources */,
 				D9F0B5601CE04B03006A764A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,6 +189,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9F0B55D1CE04B03006A764A /* ViewController.m in Sources */,
+				D9EBA47A1CE45FA500881FF6 /* TransformVC.m in Sources */,
+				D9EBA47F1CE474A000881FF6 /* CubeViewController.m in Sources */,
+				D9EBA4841CE4847800881FF6 /* SubCaLayerVC.m in Sources */,
 				D9F0B55A1CE04B03006A764A /* AppDelegate.m in Sources */,
 				D9F0B5571CE04B03006A764A /* main.m in Sources */,
 			);
@@ -298,6 +340,7 @@
 				D9F0B56B1CE04B03006A764A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

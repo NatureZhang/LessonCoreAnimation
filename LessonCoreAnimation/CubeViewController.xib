@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CubeViewController">
+            <connections>
+                <outlet property="containerView" destination="AoK-nd-0eC" id="4Gf-Cc-x3S"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outletCollection property="cubeFaces" destination="daC-h5-pIf" id="BEK-a5-SbP"/>
+                <outletCollection property="cubeFaces" destination="Wh9-gq-bMl" id="4lp-z9-u53"/>
+                <outletCollection property="cubeFaces" destination="925-Ke-F2I" id="pMT-wp-x28"/>
+                <outletCollection property="cubeFaces" destination="rUl-iU-ndi" id="G2f-ux-LhT"/>
+                <outletCollection property="cubeFaces" destination="Tdd-gg-dks" id="YrB-eo-fgn"/>
+                <outletCollection property="cubeFaces" destination="Gmj-vg-aLN" id="ByU-Dk-pQU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AoK-nd-0eC">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" red="0.77536603559999995" green="0.82979193679999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="AoK-nd-0eC" secondAttribute="trailing" id="Ug8-zk-FKf"/>
+                <constraint firstItem="AoK-nd-0eC" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aId-hf-Sk7"/>
+                <constraint firstAttribute="bottom" secondItem="AoK-nd-0eC" secondAttribute="bottom" id="aWn-Lm-EHx"/>
+                <constraint firstItem="AoK-nd-0eC" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="fBZ-b4-0yr"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+            <point key="canvasLocation" x="270" y="345"/>
+        </view>
+        <view contentMode="scaleToFill" id="daC-h5-pIf">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4pv-Y9-2pr">
+                    <rect key="frame" x="96" y="90" width="8" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.43529411759999997" blue="0.43529411759999997" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.18834008729999999" green="0.088278859419999994" blue="0.83004807690000004" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="4pv-Y9-2pr" firstAttribute="centerX" secondItem="daC-h5-pIf" secondAttribute="centerX" id="4vc-bU-ADS"/>
+                <constraint firstItem="4pv-Y9-2pr" firstAttribute="centerY" secondItem="daC-h5-pIf" secondAttribute="centerY" id="7xu-uy-uEo"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="63" y="819"/>
+        </view>
+        <view contentMode="scaleToFill" id="Wh9-gq-bMl">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XCF-Ba-aJp">
+                    <rect key="frame" x="95" y="90" width="10" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.015679037247791811" green="0.47962740384615388" blue="0.11516657232099359" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.56279708530000006" green="0.89599373999999998" blue="0.99783653849999998" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="XCF-Ba-aJp" firstAttribute="centerY" secondItem="Wh9-gq-bMl" secondAttribute="centerY" id="7n7-y3-XRp"/>
+                <constraint firstItem="XCF-Ba-aJp" firstAttribute="centerX" secondItem="Wh9-gq-bMl" secondAttribute="centerX" id="Vjo-Ln-5r9"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="326" y="819"/>
+        </view>
+        <view contentMode="scaleToFill" id="925-Ke-F2I">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8c-WG-pPu">
+                    <rect key="frame" x="85" y="85" width="30" height="30"/>
+                    <color key="backgroundColor" red="0.56279708530053918" green="0.89599374001318677" blue="0.99783653846153841" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="3"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.43529411759999997" green="0.47843137250000001" blue="0.58039215690000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="g8c-WG-pPu" firstAttribute="centerY" secondItem="925-Ke-F2I" secondAttribute="centerY" id="5kz-Oq-dqM"/>
+                <constraint firstItem="g8c-WG-pPu" firstAttribute="centerX" secondItem="925-Ke-F2I" secondAttribute="centerX" id="Dg7-3h-Q2L"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="582" y="819"/>
+        </view>
+        <view contentMode="scaleToFill" id="rUl-iU-ndi">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qxd-p9-HL1">
+                    <rect key="frame" x="95" y="90" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.18834008729134433" green="0.088278859416676542" blue="0.83004807687692317" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="qxd-p9-HL1" firstAttribute="centerY" secondItem="rUl-iU-ndi" secondAttribute="centerY" id="WVY-6x-A1m"/>
+                <constraint firstItem="qxd-p9-HL1" firstAttribute="centerX" secondItem="rUl-iU-ndi" secondAttribute="centerX" id="oH7-pY-S6J"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="63" y="1124"/>
+        </view>
+        <view contentMode="scaleToFill" id="Tdd-gg-dks">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gqy-SQ-30j">
+                    <rect key="frame" x="95" y="90" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.67553617677191569" blue="0.039722494629051752" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gqy-SQ-30j" firstAttribute="centerX" secondItem="Tdd-gg-dks" secondAttribute="centerX" id="ZtF-3T-tyP"/>
+                <constraint firstItem="gqy-SQ-30j" firstAttribute="centerY" secondItem="Tdd-gg-dks" secondAttribute="centerY" id="wTD-y3-Yh7"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="326" y="1124"/>
+        </view>
+        <view contentMode="scaleToFill" id="Gmj-vg-aLN">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Joa-YS-kJw">
+                    <rect key="frame" x="95" y="90" width="11" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.74339048809031427" green="0.082836037622292857" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.77536603559999995" green="0.82979193679999996" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="Joa-YS-kJw" firstAttribute="centerY" secondItem="Gmj-vg-aLN" secondAttribute="centerY" id="YUh-jI-Em5"/>
+                <constraint firstItem="Joa-YS-kJw" firstAttribute="centerX" secondItem="Gmj-vg-aLN" secondAttribute="centerX" id="trF-WC-HQi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="582" y="1124"/>
+        </view>
+    </objects>
+</document>
